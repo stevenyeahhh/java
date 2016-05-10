@@ -1,6 +1,7 @@
 package objetos;
 
-public class Atleta implements Runnable{
+public class Atleta implements Runnable {
+
     private Testigo testigo;
     private int id;
 
@@ -13,7 +14,5 @@ public class Atleta implements Runnable{
     public void run() {
         this.testigo.correr(id);
     }
-    
-    
 
 }
